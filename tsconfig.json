@@ -1,0 +1,15 @@
+{
+	"include": ["src", "src/commands/base.command.ts"],
+	"baseUrl": "./src",
+	"compilerOptions": {
+		"target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+		"module": "CommonJS" /* Specify what module code is generated. */,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+		"strict": true,
+		"strictPropertyInitialization": false /* Check for class properties that are declared but not set in the constructor. */,
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */,
+		"experimentalDecorators": true
+	}
+}
