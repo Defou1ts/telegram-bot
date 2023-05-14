@@ -6,7 +6,9 @@
 	"license": "MIT",
 	"type": "commonjs",
 	"scripts": {
-		"start": "nodemon"
+		"dev": "nodemon",
+		"build": "tsc",
+		"start": "node dist/main.js"
 	},
 	"devDependencies": {
 		"@types/node": "^20.1.3",
