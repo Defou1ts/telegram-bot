@@ -5,6 +5,7 @@ import { TYPES } from './types';
 import { App } from './app';
 import { LoggerService } from './services/logger/logger.service';
 import { CommandController } from './controllers/command/command.controller';
+import { PerformanceMonitorMiddleware } from './middlewares/performanceMonitor.middleware';
 
 import type { ICommandController } from './controllers/command/command.controller.interface';
 import type { ILoggerService } from './services/logger/logger.service.interface';
@@ -18,6 +19,9 @@ export interface IBootstrapReturn {
 export const appBindings = new ContainerModule((bind: interfaces.Bind) => {
 	bind<ILoggerService>(TYPES.LoggerService).to(LoggerService).inSingletonScope();
 	bind<ICommandController>(TYPES.CommandController).to(CommandController).inSingletonScope();
+	bind<PerformanceMonitorMiddleware>(TYPES.PerformanceMonitorMiddleware)
+		.to(PerformanceMonitorMiddleware)
+		.inSingletonScope();
 	bind<App>(TYPES.Application).to(App);
 });
 

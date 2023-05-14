@@ -579,7 +579,7 @@ damerau-levenshtein@^1.0.8:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
-debug@^3.2.7:
+debug@^3.1.0, debug@^3.2.7:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
   integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
@@ -2390,6 +2390,13 @@ tapable@^2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
+
+telegraf-ratelimit@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/telegraf-ratelimit/-/telegraf-ratelimit-2.0.0.tgz#64c72d77913901f92c690cd9078b1f724ef4268a"
+  integrity sha512-OUVJRz+pVDpkOfwvFuv4x5YxcPIl6puPN3HRdicN3NDnT+jQeMzKDwVAkvloUtyH1Ruo1wH4nfB5tZbtJAJ4pQ==
+  dependencies:
+    debug "^3.1.0"
 
 telegraf@^4.12.2:
   version "4.12.2"
